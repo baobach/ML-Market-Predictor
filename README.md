@@ -9,23 +9,25 @@ This repository contains the necessary resources and files to predict market mov
 - `SPY1D.csv`: Dataset containing SPY 1D market data from 2008 to 2023.
 - `report.ipynb`: Research report detailing the methodology, analysis, and findings.
 
-### Usage Instructions
+## Usage Instructions
 
-1. **Setting Up the Environment:**
+### Setting Up the Environment
 
 - Use the provided `environment.yml` file to set up the required environment using Anaconda or Miniconda:
 
- ```bash
- conda env create -f environment.yml
- conda activate <environment_name>
- ```
+```bash
+conda env create -f environment.yml
+conda activate <environment_name>
+```
 
-1. **Model Implementation:**
-   - Load the `final_model.joblib` file into your Python environment using libraries like `joblib`.
-   - Utilize the model for market movement predictions or further analysis.
+### Model Implementation
 
-2. **Exploring the Research Report:**
-   - Open and explore the `report.ipynb` Jupyter Notebook for detailed insights into the research methodology, analysis, and conclusions drawn.
+- Load the `final_model.joblib` file into your Python environment using libraries like `joblib`.
+- Utilize the model for market movement predictions or further analysis.
+
+### Exploring the Research Report
+
+- Open and explore the `report.ipynb` Jupyter Notebook for detailed insights into the research methodology, analysis, and conclusions drawn.
 
 ## Important Notes
 
